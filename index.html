@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+     <!-- <link rel="stylesheet" href="./formcss.css"> -->
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container emp-profile">
+        <form method="post">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="profile-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52y5aInsxSm31CvHOFHWujqUx_wWTS9iM6s7BAm21oEN_RiGoog"
+                            alt="" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="profile-head">
+                        <h5>
+                            Jane Doe
+                        </h5>
+                        <h6>
+                            Customer
+                        </h6>
+                        <p class="proile-rating">Budget Slab : Rs. <span>1000-1500</span></p>
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                    aria-controls="home" aria-selected="true">Preferences</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                                    aria-controls="profile" aria-selected="false">Recommendations</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <!-- <button class="profile-edit-btn info" id="savebutton">Edit</button> -->
+                    <div class="info"> <span> <button id="savebutton">edit</button></span> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="profile-work">
+                        <p>Contact Details</p>
+                        <div class="inputs">
+                            <input type="text" readonly value="9670XXXXXX">
+                        </div>
+                        <div class="inputs">
+                            <input type="text" readonly value="janedoe@outlook.com">
+                        </div>
+                        <div class="inputs">
+                            <input type="text" readonly value="4865, Spring Avenue, Philadelphia">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 forms">
+                    <div class="tab-content profile-tab" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="inputs">
+                                        <input type="text" readonly value="Catch Garlic Powder -500 gm">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="inputs">
+                                        <input type="text" readonly value="Mother Dairy Milk - 1 L">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="inputs">
+                                        <input type="text" readonly value="Ashirwaad Aata -10 kg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="inputs">
+                                        <input type="text" readonly value="India Gate Basmati Rice -5 kg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="inputs">
+                                        <input type="text" readonly value="Cadbury Silk Oreo -2 Packs">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="inputs">
+                                        <input type="text" readonly value="MDH Red Chilli Powder -350 gm">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="inputs">
+                                        <input type="text" readonly value="Namaste India Curd - 0.5 L">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="inputs">
+                                        <input type="text" readonly value="Ashirwaad Aata -10 kg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="inputs">
+                                        <input type="text" readonly value="Tata Salt -2 kg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="inputs">
+                                        <input type="text" readonly value="Dark Fantasy -2 Packs">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="inputs">
+                                        <input type="text" readonly value="Nivea Active Women Deo -1 Packs">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script>
+        var savebutton = document.getElementById('savebutton');
+        var readonly = true;
+        var inputs = document.querySelectorAll('input[type="text"]');
+        savebutton.addEventListener('click', function () {
+
+            for (var i = 0; i < inputs.length; i++) {
+                inputs[i].toggleAttribute('readonly');
+            };
+
+            if (savebutton.innerHTML == "edit") {
+                savebutton.innerHTML = "save";
+            } else {
+                savebutton.innerHTML = "edit";
+            }
+        });
+    </script>
+</body>
+
+</html>
