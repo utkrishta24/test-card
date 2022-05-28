@@ -18,7 +18,10 @@ Using this product at retail stores will help store management to build a better
   <img src="https://github.com/utkrishta24/test-card/blob/main/image.png" height="350px" width="700px"/>
   <img src="https://github.com/utkrishta24/test-card/blob/main/image.png" height="350px" width="700px"/>
 </p>
-
+## Installation
+yolo drive pr
+baki sari dependicies dalo
+python ko run php kko run
 ## Dependencies
 1) For Customer Identification module:<br>flask<br>opencv-python<br>certifi<br>chardet<br>click<br>cmake<br>decorator<br>dlib<br>face-recognition<br>face-recognition-models<br>idna<br>imageio<br>imageio-ffmpeg<br>moviepy<br>numpy<br>opencv-python<br>Pillow<br>proglog<br>requests<br>tqdm<br>urllib3<br>wincertstore<br><br>
 2) For Product Counter:<br>flask<br>cv2<br>numpy<br>mysql.connector<br>yolov3.weights<br>yolo2.cfg<br>
