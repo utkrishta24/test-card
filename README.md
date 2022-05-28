@@ -31,5 +31,13 @@ requests<br>
 tqdm<br>
 urllib3<br>
 wincertstore<br>
+<br>
+2) For Product Counter:
+flask<br>
+cv2<br>
+numpy<br>
+mysql.connector<br>
+yolov3.weights<br>
+yolo2.cfg<br>
 ## Project Demo
 ## Real Life Application
