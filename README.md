@@ -8,6 +8,10 @@ In this project there are two separate modules:
 2) Product Counter for Shelves: Product counter uses CCTV for counting products and displaying at the screens of attendees so that store's manangent can fill their stocks effectively.
 Using this product at retail stores will help store management to build a better relationship with their customers by knowing their purchase history and inclination towards premium and non-premium brands.
 
+## Applications and Uses
+<p>With the help of this product, retail stores can keep track of customers behaviour and interests. Attendees can provide a personalised shopping experience for the customers, by knowing their names, budget slab and previous purchase records. Customers will have their shopping done efficiently in time and this will build a sense of trust in 
+</p>
+
 ## Screenshots
 <p align="center">
   <img src="https://github.com/utkrishta24/test-card/blob/main/image.png" height="350px" width="700px"/>
@@ -20,6 +24,4 @@ Using this product at retail stores will help store management to build a better
 2) For Product Counter:<br>flask<br>cv2<br>numpy<br>mysql.connector<br>yolov3.weights<br>yolo2.cfg<br>
 
 ## Project Demo
-![Youtube Demo Link](https://github.com/utkrishta24/utkrishta24/blob/main/github-header-image%20(3).png)
-
-## Real Life Application
+Youtube Demo Link: [Click here](https://www.youtube.com/watch?v=7fTpKig2pVw&ab_channel=UtkrishtaSinha)
