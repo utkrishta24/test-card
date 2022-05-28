@@ -10,9 +10,9 @@ Using this product at retail stores will help store management to build a better
 
 ## Screenshots
 <p align="center">
-  <img src="https://github.com/utkrishta24/utkrishta24/blob/main/octocat-25-removebg-preview.png " height="700px" width="350px"/>
-  <img src="https://github.com/utkrishta24/utkrishta24/blob/main/octocat-25-removebg-preview.png " height="700px" width="350px"/>
-  <img src="https://github.com/utkrishta24/utkrishta24/blob/main/octocat-25-removebg-preview.png " height="700px" width="350px"/>
+  <img src="https://github.com/utkrishta24/test-card/blob/main/image.png" height="350px" width="700px"/>
+  <img src="https://github.com/utkrishta24/test-card/blob/main/image.png" height="350px" width="700px"/>
+  <img src="https://github.com/utkrishta24/test-card/blob/main/image.png" height="350px" width="700px"/>
 </p>
 
 ## Dependencies
